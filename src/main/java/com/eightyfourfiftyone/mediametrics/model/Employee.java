@@ -15,7 +15,7 @@ public class Employee implements Serializable {
     }
 
     public void setEmpName(String empName) {
-        this.empName = empName;
+        this.empName = String.valueOf(empName);
     }
 
     public String getEmpId() {
